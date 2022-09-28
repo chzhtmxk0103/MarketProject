@@ -3,23 +3,28 @@
 <head>
 <meta charset="EUC-KR">
 <title>Board</title>
+<link rel="stylesheet" href="Board.css">
 </head>
 <body>
 
-<form action = "Index.html">
-카테고리 : 
-<select name = "categorie"> 
-<option vlaue = "배송">배송</option>
-<option vlaue = "주문">주문</option>
-</select> <br>
-제목 : <input type = "text" name = "제목"> <br>
-작성자 : <input type = "text" name = "작성자"> <br>
-날짜 : <input type = "date" name = "날짜"> <br>
-내용 <br>
-<textarea name = "content" cols = "30" rows = "5"></textarea> <br> 
-<input type = "submit" value = "등록">
-<input type = "submit" value = "취소">
+<div id="board_div1">
+<form id="board_form1" action = "Index.html">
+<ul id="board_ul1">
+<li> 카테고리 : 
+ <select name = "categorie"> 
+ <option vlaue = "배송">배송</option> 
+ <option vlaue = "주문">주문</option> 
+ </select> </li>
+<li> 제목 : <input type = "text" name = "제목"> </li>
+<li> 작성자 : <input type = "text" name = "작성자"> </li>
+<li> 날짜 : <input type = "date" name = "날짜"> </li>
+<li> 내용 </li>
+<li> <textarea name = "content" cols = "30" rows = "5"></textarea> </li> 
+<li> <input type = "submit" value = "등록"> 
+     <input type = "submit" value = "취소"> </li>
+</ul>
 </form>
+</div>
 
 </body>
 </html>

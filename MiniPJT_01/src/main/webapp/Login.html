@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="utf-8">
 <title>Login</title>
+<link rel="stylesheet" href="Login.css">
 </head>
 <body>
 
-<form action="Index.html">
-ID : <input type = "text" name = "id"> <br>
-PW : <input type = "password" name = "pw"> <br>
+<div id="login_div1">
 
-<input type = "submit" value = "�α���">
+<form id="login_form1" action="Index.html">
+
+<label for="tx_id">ID : </label>
+<input id="tx_id" type = "text">
+<input id="id_check" type="button" value="중복확인" onclick="check()"> <br>
+
+<label for="tx_pw">PW : </label>
+<input id="tx_pw" type = "password"> <br>
+
+<input type = "submit" value = "로그인">
+
 </form>
+
+</div>
+
+<script type="text/javascript" src="Login.js"></script>
 
 </body>
 </html>
