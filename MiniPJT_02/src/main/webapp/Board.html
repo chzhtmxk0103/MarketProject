@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Board</title>
+<link rel="stylesheet" href="Board.css">
+</head>
+<body>
+
+<div id="board_div1">
+<form id="board_form1" action="Board.jsp">
+<ul id="board_ul1">
+<li> 카테고리 : 
+ <select name = "categorie"> 
+ <option value = "배송">배송</option> 
+ <option value = "주문">주문</option> 
+ </select> </li>
+<li> 제목 : <input name = "title" type = "text"> </li>
+<li> 작성자 : <input name = "writer" type = "text"> </li>
+<li> 날짜 : <input name = "writedate" type = "date"> </li>
+<li> 내용 </li>
+<li> <textarea name = "content" cols = "30" rows = "5"></textarea> </li> 
+<li> <input type = "submit" value = "등록"> 
+     <input type = "submit" value = "취소"> </li>
+</ul>
+</form>
+</div>
+
+</body>
+</html>
